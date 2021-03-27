@@ -65,6 +65,12 @@ commands should be in ''. for example;
   * * * * * 'echo "Hello!"'
 ```
 
+- The syntax for fcron is similar to cron:
+
+```bash
+  minute  hour  day-of-month  month  day-of-week  'command-to-be-executed'
+```
+
 Save file and restart fcron service
 
 To check jobs logs 
