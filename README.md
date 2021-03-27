@@ -42,9 +42,16 @@ then install binaries:
   make install
 ```
 
+### It will ask you a few questions during the installation and you can safely answer “y” (yes) for all of them.
+
+
+~ Conguratualtion fcron installed successfully
+
 ##### You can now run `fcron` and `fcrontab`.
 
 ```code
+  # Set fcron jobs
+  
   fcrontab -e 
   
   or 
